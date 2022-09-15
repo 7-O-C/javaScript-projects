@@ -1,0 +1,12 @@
+
+.btn{
+    cursor: pointer;
+    width: 20vw;
+    height: 3vw;
+    margin: 320px 530px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(161, 54%, 90%);
+}
