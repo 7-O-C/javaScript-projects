@@ -1,0 +1,73 @@
+.container {
+    height: 60vh;
+    width: 50vw;
+    border-radius: 50px;
+    background-color: hsl(36, 10%, 90%);
+    margin: 100px auto;
+}
+
+#heading {
+    text-align: center;
+    font-size: 63px;
+    color: hsl(212, 60%, 44%);
+    padding-top: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.counter {
+    font-size: 104px;
+    color: hsl(501, 47%, 32%);
+    text-align: center;
+    justify-items: center;
+    margin: auto;
+    padding-bottom: 12px;
+    width: 20vw;
+    height: 10vh;
+}
+
+.buttons {
+    text-align: center;
+    word-spacing: 16px;
+    margin-top: 64px;
+    padding-bottom: 4px;
+}
+
+#decrease {
+    padding: 8px 42px;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 6px;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#increase {
+    letter-spacing: 6px;
+    padding: 8px 42px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#increase:hover,
+#decrease:hover,
+#reset:hover {
+    background-color: hsl(255, 14%, 43%);
+    color: white;
+}
+
+#reset {
+    padding: 8px 42px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    letter-spacing: 6px;
+    font-size: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
